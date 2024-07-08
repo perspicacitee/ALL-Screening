@@ -1,0 +1,14 @@
+device: "cuda:2"
+batch_size: 16
+exp_name: '240706_resnet18_cbc_wbc_external2'
+data_use: "img_tab"
+num_epochs: 150
+lr: 0.00001
+model_name: "resnet18"
+hidden_dims:
+- 3
+pre_tr: True
+
+train_no_path: XXX
+test_no_path: XXX
+cln_path: XXX
